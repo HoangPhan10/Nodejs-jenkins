@@ -3,7 +3,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello, Node.js update project first!');
+  res.end('Hello, Node.js update project second!');
 });
 
 const PORT = 3000;
